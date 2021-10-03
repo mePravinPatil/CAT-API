@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      
+
+        #myInput {
+            background-color: #c9c7c7;
+            background-position: 10px 12px;
+            background-repeat: no-repeat;
+            width: 100%;
+            font-size: 16px;
+            padding: 12px 20px 12px 40px;
+            border: 1px solid #ddd;
+            margin-bottom: 12px;
+        }
+
+        #myUL {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #myUL li a {
+            border: 1px solid #ddd;
+            margin-top: -1px;
+            background-color: rgb(245, 239, 239);
+            padding: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+            display: block;
+        }
+
+        #myUL li a:hover:not(.header) {
+            background-color: #eee;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div class="searchBox">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for CATs..!!" size="04">
+
+    </div>
+    <div class="user-list"></div>
+
+</body>
+
+</html>
